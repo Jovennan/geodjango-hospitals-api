@@ -49,7 +49,10 @@ THIRD_PARTY_APPS = [
     'rest_framework', 'rest_framework_gis'
 ]
 
-PROJECTY_APPS = []
+PROJECTY_APPS = [
+    'hospitals.apps.HospitalsConfig',
+    'boundaries.apps.BoundariesConfig'
+]
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + PROJECTY_APPS
 
