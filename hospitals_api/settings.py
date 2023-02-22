@@ -46,7 +46,7 @@ DJANGO_APPS = [
 ]
 
 THIRD_PARTY_APPS = [
-    'rest_framework', 'rest_framework_gis', 'leaflet'
+    'rest_framework', 'rest_framework_gis', 'leaflet', 'django_filters'
 ]
 
 PROJECTY_APPS = [
@@ -140,7 +140,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-LEAFLET_CONFIG={
+LEAFLET_CONFIG = {
     "DEFAULT_CENTER": (-1.94, 29.87),
     "DEFAULT_ZOOM": 8,
     "MAX_ZOOM": 20,
